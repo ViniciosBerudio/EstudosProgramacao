@@ -45,7 +45,7 @@ def consultar_funcionarios():
         if opcao == '1':
             print('Funcionario cadastrados: ')
             for funcionario in lista_funcionarios:
-                print(f'ID: {funcionario['id']}, nome: {funcionario['nome']}, setor: {funcoinario['setor']}, salario {funcionario['salario']}')
+                print(f'ID: {funcionario['id']}, nome: {funcionario['nome']}, setor: {funcionario['setor']}, salario {funcionario['salario']}')
 
         elif opcao == '2':
             id_consulta = int(input('Digite o ID do funcionario: '))
